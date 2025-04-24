@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #111;
+      color: white;
+    }
+
+    header {
+      background: #000;
+      padding: 20px 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    header .logo span {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .header-contact {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .header-contact a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .btn-quote {
+      background: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=1450&q=80') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 50px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 500px;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 20px;
+    }
+
+    .hero-buttons .btn {
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .btn-services {
+      background: #28a745;
+      color: white;
+    }
+
+    .btn-video {
+      background: transparent;
+      border: 2px solid white;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span>Portfolio</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="service.html">Resume</a></li>
+        <li><a href="blog.html">Project</a></li>
+        <li><a href="pages.html">Certifications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-contact">
+        <a href="mailto:senthillakshmipriya5@gmail.com">📧senthillakshmipriya5@gmail.com</a>
+      <a href="tel:9025245213">📞9025245213</a>
+    </div>
+  </header>
+
+  <section style="background: #1a1a1a; color: white; min-height: 100vh; padding: 60px 10%; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; box-sizing: border-box;">
+  
+    <!-- Text Content -->
+    <div style="flex: 1; min-width: 300px; margin-right: 40px;">
+      <h2 style="font-size: 40px; margin-bottom: 20px;">About Me</h2>
+      <p style="font-size: 20px; line-height: 1.8; margin-bottom: 30px; max-width: 600px;">
+        I'm <strong>T. Lakshmipriya</strong>, a software developer who is deeply interested in coding and technology.
+        I enjoy building real-world web applications and exploring new tools to improve user experiences.
+        With hands-on experience in both frontend and backend development, I’m always excited to take on
+        new challenges and grow as a developer.
+      </p>
+  
+      <h3 style="font-size: 28px; margin-bottom: 15px;">My Skills</h3>
+      <ul style="list-style: none; padding-left: 0; display: flex; flex-wrap: wrap; gap: 15px;">
+        <li style="background: #28a745; padding: 10px 20px; border-radius: 20px;">Java</li>
+        <li style="background: #28a745; padding: 10px 20px; border-radius: 20px;">Web Development</li>
+        <li style="background: #28a745; padding: 10px 20px; border-radius: 20px;">HTML & CSS</li>
+        <li style="background: #28a745; padding: 10px 20px; border-radius: 20px;">VS Code</li>
+        <li style="background: #28a745; padding: 10px 20px; border-radius: 20px;">Big Data</li>
+      </ul>
+    </div>
+  
+    <!-- Image -->
+    <div style="flex: 1; min-width: 300px; text-align: center;">
+      <img src="priyas.jpg" alt="Lakshmipriya" style="max-width: 100%; max-height: 500px; height: auto; border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.5);">
+    </div>
+  
+  </section>
+  
+</body>
+</html>

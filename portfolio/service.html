@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T. Lakshmipriya | Software Developer</title>
+    <style>
+        /* General Styles */
+        .back-btn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transition: background-color 0.3s;
+}
+.back-btn:hover {
+  background-color: #e0e0e0;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        .container {
+            width: 85%;
+            margin: 0 auto;
+            padding: 15px;
+        }
+
+        /* Header Styles */
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .title {
+            font-size: 16px;
+            font-style: italic;
+            margin: 5px 0;
+        }
+
+        .contact-info a {
+            color: white;
+            margin: 0 8px;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Download Button */
+        .download-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: white;
+            color: #4CAF50;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #f1f1f1;
+            transform: translateY(-2px);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 10px 0 0 0;
+            margin: 0;
+            background-color: white;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .container section {
+            padding: 15px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin: 5px 0 15px 0;
+            font-size: 20px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 5px 0;
+        }
+
+        ul li {
+            margin: 5px 0;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        ul li:before {
+            content: "•";
+            color: #4CAF50;
+            position: absolute;
+            left: 0;
+        }
+
+        .project {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ddd;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+        }
+
+        .project h3 {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #2c3e50;
+        }
+
+        .project p {
+            margin: 3px 0;
+            font-size: 14px;
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 5px;
+            color: #4CAF50;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 8px 0;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        /* Scroll Button */
+        .scroll-button {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            padding: 8px 15px;
+            font-size: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            display: none;
+            z-index: 99;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>T. Lakshmipriya</h1>
+            <p class="title">Software Developer</p>
+            <!-- Back Button -->
+<a href="javascript:history.back()" class="back-btn">← Back</a>
+
+            <div class="contact-info">
+                <a href="mailto:senthillakshmipriya5@gmail.com">senthillakshmipriya5@gmail.com</a>
+                <a href="https://www.linkedin.com/in/lakshmipriya-t-424817262/" target="_blank">LinkedIn</a>
+            </div>
+            <!-- PDF Download Button -->
+            <a href="resume.pdf" download="T-Lakshmipriya-Resume.pdf" class="download-btn">
+                Download PDF Resume
+            </a>
+        </div>
+    </header>
+
+    <section class="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Aspiring Java Developer with a strong foundation in programming, web development, 
+                and database management. Passionate about problem-solving and software 
+                development, with hands-on experience in real-world projects. A quick learner and 
+                dedicated team player, seeking an opportunity to contribute technical expertise and 
+                enhance professional growth.</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Java, JavaScript, C++</li>
+                <li>Web Development: HTML, CSS, JavaScript</li>
+                <li>Frameworks & Tools: Android Studio, VS Code</li>
+                <li>Databases: MySQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>1. Accident Detection System (ongoing)</h3>
+                <p><strong>Technologies:</strong> Python, Android Studio, Machine learning</p>
+                <p> • Designed and implemented a real-time accident detection web-based 
+                    application. 
+                    • The system detects road accidents and sends alert messages to nearby 
+                    hospitals and neighbors.</p>
+            </div>
+            <div class="project">
+                <h3>2. Web-Based Projects</h3>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                <p>A web application that allows users to create and edit with a simple interface.</p>
+            </div>
+            <div class="project">
+                <h3>3. Steganography Tool (Image & Audio)</h3>
+                <p><strong>Technologies:</strong> Java</p>
+                <p>A tool that hides secret messages inside images and audio files. I implemented image steganography and added voice encoding/decoding features for security.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p><strong>B.Tech in Information Technology</strong> - Panimalar Engineering College, Expected Graduation: 2026</p>
+            <p><strong>Relevant Courses:</strong> Java, Python, Web Development, Excel</p>
+            <p><strong>Certifications:</strong> NPTEL Java Course (Elite Category), Artificial Intelligence for real world application (TCS), Cybersecurity (NASSCOM)</p>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <p>© 2025 T. Lakshmipriya. All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <button class="scroll-button" id="scrollButton">↑ Top</button>
+
+    <script>
+        const scrollButton = document.getElementById("scrollButton");
+        window.onscroll = function() {
+            scrollButton.style.display = (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) 
+                ? "block" : "none";
+        };
+        scrollButton.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+    </script>
+
+</body>
+</html>
